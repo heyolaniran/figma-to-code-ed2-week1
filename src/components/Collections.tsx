@@ -11,7 +11,7 @@ export default function Collections() {
                 Our Collections 
             </h1>
 
-            <div className="mt-2 px-2 lg:flex items-center">
+            <div className="mt-2 px-2 lg:flex md:flex items-center">
                 <div className=" px-2 flex overflow-x-auto hide-scrollbar">
                     {categories.map((category) => (
                         <button key={category.id} className={` ${category.active ? 'bg-black text-gray-100' :'bg-gray-200 text-black' } text-xs px-4 py-1 mx-2 rounded-md `}>
