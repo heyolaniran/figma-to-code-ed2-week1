@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Raleway } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/components/NavBar";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Raleway({ subsets: ["latin", 'cyrillic'] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="container px-16">
         <NavBar />
-        <main className="relative overflow-hidden">{children}</main>
+        <main className={`relative overflow-hidden font-normal ${inter.style}`}>{children}</main>
       </body>
     </html>
   );
