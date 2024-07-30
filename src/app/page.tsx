@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="z-5">
       <Hero />
-      <Collections/>
+      <Collections />
     </div>
   );
 }

@@ -4,16 +4,15 @@ export type LinksType = {
   link: string;
 };
 
-
 export type CollectionType = {
-  id: number; 
-  image: string; 
-  name: string; 
-  amount: number; 
-}
+  id: number;
+  image: string;
+  name: string;
+  amount: number;
+};
 
 export type CategoryType = {
-  id: number; 
-  name : string;
+  id: number;
+  name: string;
   active: boolean;
-}
+};

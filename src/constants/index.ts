@@ -1,4 +1,4 @@
-import { CategoryType, LinksType } from "@/types";
+import { CategoryType, CollectionType, LinksType } from "@/types";
 
 export const links: LinksType[] = [
   {
@@ -28,32 +28,59 @@ export const links: LinksType[] = [
   },
 ];
 
-
 export const categories: CategoryType[] = [
   {
-    id : 1 , 
-    name: "All", 
-    active : true
-  }, 
+    id: 1,
+    name: "All",
+    active: true,
+  },
 
   {
-    id : 2 , 
-    name: "Art", 
-    active : false
-  }, 
-  {
-    id : 3 , 
-    name: "Celebrities", 
-    active : false
-  }, 
-  {
-    id : 4 , 
-    name: "Gaming", 
-    active : false
+    id: 2,
+    name: "Art",
+    active: false,
   },
   {
-    id : 5 , 
-    name: "Sport", 
-    active : false
-  },  
+    id: 3,
+    name: "Celebrities",
+    active: false,
+  },
+  {
+    id: 4,
+    name: "Gaming",
+    active: false,
+  },
+  {
+    id: 5,
+    name: "Sport",
+    active: false,
+  },
+];
+
+
+export const collections : CollectionType[] = [
+  {
+    id : 1 , 
+    image: '/collection1.svg', 
+    name : 'CyberPunk', 
+    amount : 68, 
+  },
+  {
+    id : 2 , 
+    image: '/collection2.svg', 
+    name : 'Durolost Boll - Upper', 
+    amount : 68, 
+  },
+  {
+    id : 3 , 
+    image: '/collection3.png', 
+    name : 'Space X Wiper ', 
+    amount : 68, 
+  },
+  {
+    id : 4 , 
+    image: '/snoop.svg', 
+    name : 'Snoop Dog', 
+    amount : 68, 
+  }
 ]
