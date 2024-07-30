@@ -3,7 +3,7 @@ import Image from "next/image"
 export default function Hero() {
 
     return (
-       <section id="hero" className=" p-4 container z-20">
+       <section id="hero" className=" relative p-4 container z-20">
             <div className="grid lg:grid-cols-2 md:grid-cols-1 mt-8">
                 <div className="lg:text-[88px] xs:mb-8 text-[32px]">
                    <p className="inline-flex items-end">See the NFT {" "}</p>

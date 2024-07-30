@@ -1,4 +1,4 @@
-import { LinksType } from "@/types";
+import { CategoryType, LinksType } from "@/types";
 
 export const links: LinksType[] = [
   {
@@ -27,3 +27,33 @@ export const links: LinksType[] = [
     link: "",
   },
 ];
+
+
+export const categories: CategoryType[] = [
+  {
+    id : 1 , 
+    name: "All", 
+    active : true
+  }, 
+
+  {
+    id : 2 , 
+    name: "Art", 
+    active : false
+  }, 
+  {
+    id : 3 , 
+    name: "Celebrities", 
+    active : false
+  }, 
+  {
+    id : 4 , 
+    name: "Gaming", 
+    active : false
+  },
+  {
+    id : 5 , 
+    name: "Sport", 
+    active : false
+  },  
+]
