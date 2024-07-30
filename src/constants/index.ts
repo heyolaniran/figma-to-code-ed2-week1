@@ -1,4 +1,4 @@
-import { CategoryType, CollectionType, LinksType } from "@/types";
+import { CategoryType, CollectionType, LinksType, ServiceType } from "@/types";
 
 export const links: LinksType[] = [
   {
@@ -81,5 +81,33 @@ export const collections: CollectionType[] = [
     image: "/snoop-4.svg",
     name: "Snoop Dog",
     amount: 68,
+  },
+];
+
+export const services: ServiceType[] = [
+  {
+    id: 1,
+    icon: "/icon1.svg",
+    title: "Set up your wallet",
+    body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+  },
+  {
+    id: 2,
+    icon: "/icon2.svg",
+    title: "Add your NFT's",
+    body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+  },
+
+  {
+    id: 3,
+    icon: "/icon3.svg",
+    title: "Promote your NFT's",
+    body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+  },
+  {
+    id: 4,
+    icon: "/icon4.svg",
+    title: "Sell your NFT's",
+    body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
   },
 ];
