@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Services() {
   return (
-    <section id="services" className="mt-4 container p-4">
+    <section id="services" className="mt-4 mb-8 container p-4">
       <h1 className="text-lg font-bold">Create and Sell Now</h1>
 
       <div className="mt-4 px-6 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4">

@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Collections() {
   return (
-    <div className="mt-4 container p-4 ">
+    <div className="mt-4 mb-8 container p-4 ">
       <h1 className="text-lg font-bold">Our Collections</h1>
 
       <div className="mt-2 px-2 lg:flex md:flex lg:justify-between md:justify-between items-center">
