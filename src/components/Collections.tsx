@@ -7,8 +7,8 @@ export default function Collections() {
     <div className="mt-4 container p-4 ">
       <h1 className="text-lg font-bold">Our Collections</h1>
 
-      <div className="mt-2 px-2 lg:flex md:flex items-center">
-        <div className=" px-2 flex overflow-x-auto hide-scrollbar">
+      <div className="mt-2 px-2 lg:flex md:flex lg:justify-between md:justify-between items-center">
+        <div className=" px-2 flex  overflow-x-auto hide-scrollbar">
           {categories.map((category) => (
             <button
               key={category.id}
