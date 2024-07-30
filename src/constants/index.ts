@@ -61,25 +61,25 @@ export const categories: CategoryType[] = [
 export const collections : CollectionType[] = [
   {
     id : 1 , 
-    image: '/collection1.svg', 
+    image: '/collection-1.svg', 
     name : 'CyberPunk', 
     amount : 68, 
   },
   {
     id : 2 , 
-    image: '/collection2.svg', 
+    image: '/collection-2.svg', 
     name : 'Durolost Boll - Upper', 
     amount : 68, 
   },
   {
     id : 3 , 
-    image: '/collection3.png', 
+    image: '/collection-3.svg', 
     name : 'Space X Wiper ', 
     amount : 68, 
   },
   {
     id : 4 , 
-    image: '/snoop.svg', 
+    image: '/snoop-4.svg', 
     name : 'Snoop Dog', 
     amount : 68, 
   }
