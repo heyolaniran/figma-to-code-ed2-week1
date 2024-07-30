@@ -1,9 +1,10 @@
 import { links } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
+import { SideBar } from "./ui/SideBar";
 export default function NavBar() {
   return (
-    <nav className="flex font-semibold items-center justify-between border border-spacing-2 px-2 border-gray-200">
+    <nav className="flex py-2 font-semibold items-center justify-between px-2 ">
       <Image
         src={"/logo.svg"}
         alt="logo"
@@ -12,7 +13,7 @@ export default function NavBar() {
         className="w-8 h-8 "
       />
 
-      <div className="inline-flex p-4">
+      <div className=" p-4 hidden lg:flex">
         {links.map((link) => (
           <Link href={link.link} key={link.id} className="px-4">
             {link.name}
@@ -20,7 +21,7 @@ export default function NavBar() {
         ))}
       </div>
 
-      <div className="">
+      <div className="hidden lg:flex">
         <Link
           href={"/"}
           className=" border-r-2 px-[20px] mr-4 py-1.5 items-center border-black border-spacing-4 font-normal text-base"
@@ -32,6 +33,8 @@ export default function NavBar() {
           Connect Wallet{" "}
         </button>
       </div>
+
+      <SideBar />
     </nav>
   );
 }

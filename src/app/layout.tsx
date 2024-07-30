@@ -3,7 +3,7 @@ import { Raleway } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/components/NavBar";
 
-const inter = Raleway({ subsets: ["latin", 'cyrillic'] });
+const inter = Raleway({ subsets: ["latin", "cyrillic"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,9 +17,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="container px-16">
+      <body className="container lg:px-12">
         <NavBar />
-        <main className={`relative overflow-hidden font-normal ${inter.style}`}>{children}</main>
+        <main className={`relative overflow-hidden font-normal`}>
+          {children}
+        </main>
       </body>
     </html>
   );
