@@ -45,7 +45,7 @@ export const SideBar = () => {
         )}
       >
         <section
-          className="text-black bg-slate-50 flex-col absolute right-0 top-0 h-screen p-8 gap-8 z-50 w-[300px] flex"
+          className="text-black bg-slate-50 flex-col absolute right-0 top-0 h-screen p-8 gap-8 z-10 w-[300px] flex"
           ref={ref}
         >
           <Image
