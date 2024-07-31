@@ -17,3 +17,9 @@
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+
+@layer utilities {
+  .get-app {
+    @apply  relative  w-full  justify-center  overflow-hidden  bg-bg-cta bg-cover bg-center bg-no-repeat px-6 py-12 text-white  sm:py-24 lg:px-20 xl:max-h-[598px] ;
+  }
+}
