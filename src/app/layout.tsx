@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Raleway } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/components/NavBar";
+import Footer from "@/components/Footer";
 
 const inter = Raleway({ subsets: ["latin", "cyrillic"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({
         <main className={`relative overflow-hidden font-normal`}>
           {children}
         </main>
+        <Footer/>
       </body>
     </html>
   );
