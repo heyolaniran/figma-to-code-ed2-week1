@@ -23,7 +23,7 @@ export default function RootLayout({
         <main className={`relative overflow-hidden font-normal`}>
           {children}
         </main>
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );
