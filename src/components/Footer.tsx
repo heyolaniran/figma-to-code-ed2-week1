@@ -1,3 +1,4 @@
+import { footerLinks } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -16,7 +17,7 @@ export default function Footer() {
         </h1>
 
         <div className="flex lg:justify-center  ">
-          {["privacy", "Terms & Conditions", "About Us"].map((link) => (
+          {footerLinks.map((link) => (
             <Link href={""} className="px-4 leading-5 font-semibold text-sm ">
               {link}
             </Link>
