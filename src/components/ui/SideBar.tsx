@@ -45,17 +45,20 @@ export const SideBar = () => {
         )}
       >
         <section
-          className="text-black bg-slate-50 flex-col absolute right-0 top-0 h-screen p-8 gap-8 z-10 w-[300px] flex"
+          className="text-black bg-slate-50 flex-col absolute right-0 top-0 h-screen p-8 gap-8 -z-10 w-[300px] flex"
           ref={ref}
         >
-          <Image
-            className="mt-0 mb-8 cursor-pointer flex justify-end"
-            src={"/close2.svg"}
-            width={30}
-            height={30}
-            alt="cls"
-            onClick={() => setIsOpen(false)}
-          />
+          <div className="flex justify-end items-center">
+            <Image
+              className="mt-0 mb-8  relative"
+              src={"/close2.svg"}
+              width={30}
+              height={30}
+              alt="cls"
+              onClick={() => setIsOpen(false)}
+            />
+          </div>
+          
 
           {links.map((item) => (
             <Link href={item.link} className="font-bold" key={item.id}>
@@ -70,7 +73,7 @@ export const SideBar = () => {
             >
               Sign Up
             </Link>{" "}
-            <button className=" bg-black rounded-[42px] px-2 py-1 ml-1 text-center text-white">
+            <button className=" bg-black rounded-[42px] px-4 py-1 ml-1 text-sm  text-center text-white">
               {" "}
               Connect Wallet{" "}
             </button>

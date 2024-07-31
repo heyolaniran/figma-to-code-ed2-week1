@@ -4,7 +4,8 @@ import Link from "next/link";
 import { SideBar } from "./ui/SideBar";
 export default function NavBar() {
   return (
-    <nav className="flex py-2 font-semibold items-center justify-between px-2 ">
+    <>
+      <nav className="flex py-2 font-semibold items-center relative z-30 justify-between px-2 ">
       <Image
         src={"/logo.svg"}
         alt="logo"
@@ -34,7 +35,10 @@ export default function NavBar() {
         </button>
       </div>
 
+      
       <SideBar />
     </nav>
+    </>
+  
   );
 }
