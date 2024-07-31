@@ -8,7 +8,7 @@ export default function Home() {
       <Hero />
       <Collections />
       <Services />
-      <CTA/>
+      <CTA />
     </div>
   );
 }

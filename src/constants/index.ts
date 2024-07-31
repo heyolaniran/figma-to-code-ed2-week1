@@ -111,3 +111,9 @@ export const services: ServiceType[] = [
     body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
   },
 ];
+
+export const footerLinks: string[] = [
+  "Privacy",
+  "Terms & Conditions",
+  "About Us",
+];

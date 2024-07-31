@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'bg-cta' : "url('/cta.svg')"
+        "bg-cta": "url('/cta.svg')",
       },
     },
   },
