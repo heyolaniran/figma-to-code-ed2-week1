@@ -26,7 +26,7 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        <div className="flex lg:justify-center  lg:items-end">
+        <div className="flex md:justify-end justify-end items-end">
           <Image src={"/hero.png"} width={400} height={400} alt="hero" />
         </div>
       </div>
