@@ -4,11 +4,11 @@ export default function CTA() {
     <section id="" className="container w-full  p-10">
       <div className="p-4 rounded-xl text-white get-app">
         <div className="">
-          <h1 className="lg:text-6xl text-2xl flex justify-center fotn-semibold items-center">
+          <h1 className="lg:text-6xl text-4xl flex justify-center fotn-semibold items-center">
             Build your NFT profile
           </h1>
 
-          <p className="items-center text-lg font-semibold  justify-center mt-6 flex">
+          <p className="items-center text-md font-semibold  justify-center mt-6 flex">
             Join almost 10K NFT profile on Digit
           </p>
 
