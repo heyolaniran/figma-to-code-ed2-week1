@@ -11,12 +11,12 @@ export default function Footer() {
 
       <hr className="border border-spacing-1 my-4 border-gray-100" />
 
-      <div className="lg:flex justify-between items-center">
+      <div className="lg:flex md:flex justify-between items-center">
         <h1 className="font-semibold text-xl py-4 leading-5 lg:text-2xl">
           Create, Explore & Collect Digital NFTs
         </h1>
 
-        <div className="flex lg:justify-center  ">
+        <div className="flex lg:justify-center justify-center items-center  ">
           {footerLinks.map((link) => (
             <Link href={""} className="px-4 leading-5 font-semibold text-sm ">
               {link}
