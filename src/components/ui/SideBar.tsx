@@ -58,7 +58,6 @@ export const SideBar = () => {
               onClick={() => setIsOpen(false)}
             />
           </div>
-          
 
           {links.map((item) => (
             <Link href={item.link} className="font-bold" key={item.id}>
